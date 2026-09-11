@@ -3,16 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohamed Njeh Content that converts</title>
+<title>Mohamed Njeh | The Dangerous Marketer | Creative, Copy & Strategy</title>
 <link rel="icon" type="image/png" href="favicoon-Photoroom.png">
 <link rel="preload" as="image" href="jaunee-Photoroom.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
 <style>
   :root{
     --bg:#0B0B0C;
@@ -151,6 +147,39 @@
   .btn-solid:hover{transform:translateY(-2px); box-shadow:0 8px 26px rgba(214,254,62,0.28);}
   .btn-ghost{border:1px solid var(--border); color:var(--text); background:rgba(255,255,255,0.02);}
   .btn-ghost:hover{border-color:var(--text-dim); transform:translateY(-2px);}
+
+  .hero-exp-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    background:rgba(214,254,62,0.06);
+    border:1px solid rgba(214,254,62,0.22);
+    border-radius:999px;
+    padding:6px 16px 6px 8px;
+    margin-top:20px;
+    font-size:12.5px;
+    color:var(--text-dim);
+    transition:border-color .2s ease, transform .2s ease;
+  }
+  .hero-exp-badge:hover{
+    border-color:var(--lime);
+    transform:translateY(-1px);
+    color:var(--text);
+  }
+  .hero-exp-badge .exp-badge-logo{
+    width:22px;
+    height:22px;
+    object-fit:contain;
+    border-radius:50%;
+    background:var(--bg-panel);
+    border:1px solid rgba(214,254,62,0.4);
+    padding:1px;
+    flex-shrink:0;
+  }
+  .hero-exp-badge strong{
+    color:var(--lime);
+    font-weight:600;
+  }
 
   /* format strip (mirrors higgsfield's Image/Video/Audio pill row) */
   .proof-strip{
@@ -329,6 +358,20 @@
     margin-bottom:20px;
   }
   .value-col p strong{color:var(--text); font-weight:600;}
+  .manifesto-quote{
+    border-left:2px solid var(--lime);
+    padding:16px 20px;
+    margin-bottom:24px;
+    font-size:16px;
+    line-height:1.75;
+    color:var(--text);
+    background:rgba(214,254,62,0.04);
+    border-radius:0 var(--radius-md) var(--radius-md) 0;
+  }
+  .manifesto-quote em{
+    font-style:italic;
+    color:var(--text);
+  }
   @media (max-width:820px){ .value-grid{grid-template-columns:1fr; gap:32px;} }
 
   /* ===== OFFERS ===== */
@@ -566,9 +609,9 @@
   <div class="nav-pill">
     <div class="logo">MOHAMED NJEH</div>
     <nav class="nav-links">
-      <a href="#offers">What I make</a>
-      <a href="#work">Work</a>
-      <a href="#why">Why me</a>
+      <a href="#offers">The Stack</a>
+      <a href="#work">Work & Accounts</a>
+      <a href="#why">The Edge</a>
     </nav>
     <a href="#contact" class="nav-cta">Let's talk</a>
   </div>
@@ -580,11 +623,15 @@
     <div class="wrap">
       <div class="hero-grid">
         <div class="hero-head">
-          <div class="eyebrow">Writing in English · French · Arabic</div>
-          <h1 class="headline">Content that turns viewers into <span class="hl">followers</span>. Followers into <span class="hl">customers</span>.</h1>
-          <p class="hero-sub">Trilingual scripts, copy, and short-form content for founders and creators who want growth, not views.</p>
+          <div class="eyebrow">Full-Stack Creative · Strategy · Trilingual (EN · FR · AR)</div>
+          <h1 class="headline">The creative who understands numbers. The copywriter who understands <span class="hl">sales</span>.</h1>
+          <p class="hero-sub">Direct-response copy, sales psychology, and AI execution. Built for revenue, not vanity metrics.</p>
+          <div class="hero-exp-badge">
+            <img src="Eye_of_falta.webp" alt="Falta Studio" class="exp-badge-logo">
+            <span>Agency Experience: <strong>Content Manager & AI Creator</strong> at <strong>Falta Studio</strong> · <strong>Reef Perfumes UK</strong></span>
+          </div>
           <div class="hero-actions">
-            <a href="#work" class="btn btn-solid">See the results</a>
+            <a href="#work" class="btn btn-solid">See the work</a>
             <a href="#contact" class="btn btn-ghost">Start a project</a>
           </div>
         </div>
@@ -596,6 +643,14 @@
         <span class="proof-label">Trusted by</span>
         <div class="marquee-wrapper">
           <div class="proof-logos">
+            <div class="proof-logo-item">
+              <img loading="lazy" decoding="async" src="ReefPerfumes1.webp" alt="Reef Perfumes UK" style="height: 72px; width: 72px; object-fit: contain; border-radius: 50%; border: 1.5px solid var(--lime); padding: 5px; background: #ffffff;">
+              <span class="proof-logo-name">Reef Perfumes UK</span>
+            </div>
+            <div class="proof-logo-item">
+              <img loading="lazy" decoding="async" src="Eye_of_falta.webp" alt="Falta Studio" style="height: 72px; width: 72px; object-fit: contain; border-radius: 50%; border: 1.5px solid var(--lime); padding: 5px; background: rgba(21,21,23,0.9);">
+              <span class="proof-logo-name">Falta Studio</span>
+            </div>
             <div class="proof-logo-item">
               <img loading="lazy" decoding="async" src="premiummmmbooking.webp" alt="Premium Booking" style="height: 60px; width: auto; object-fit: contain; border: 1.5px solid var(--lime); border-radius: 12px; padding: 6px 12px;">
               <span class="proof-logo-name">Premium Booking</span>
@@ -634,6 +689,14 @@
             </div>
           </div>
           <div class="proof-logos" aria-hidden="true">
+            <div class="proof-logo-item">
+              <img loading="lazy" decoding="async" src="ReefPerfumes1.webp" alt="Reef Perfumes UK" style="height: 72px; width: 72px; object-fit: contain; border-radius: 50%; border: 1.5px solid var(--lime); padding: 5px; background: #ffffff;">
+              <span class="proof-logo-name">Reef Perfumes UK</span>
+            </div>
+            <div class="proof-logo-item">
+              <img loading="lazy" decoding="async" src="Eye_of_falta.webp" alt="Falta Studio" style="height: 72px; width: 72px; object-fit: contain; border-radius: 50%; border: 1.5px solid var(--lime); padding: 5px; background: rgba(21,21,23,0.9);">
+              <span class="proof-logo-name">Falta Studio</span>
+            </div>
             <div class="proof-logo-item">
               <img loading="lazy" decoding="async" src="premiummmmbooking.webp" alt="Premium Booking" style="height: 60px; width: auto; object-fit: contain; border: 1.5px solid var(--lime); border-radius: 12px; padding: 6px 12px;">
               <span class="proof-logo-name">Premium Booking</span>
@@ -675,22 +738,25 @@
       </div>
 
       <div class="format-strip" data-reveal>
-        <div class="format-chip"><span class="dot"></span>Conversion Copywriting</div>
-        <div class="format-chip"><span class="dot"></span>Script Writing</div>
-        <div class="format-chip"><span class="dot"></span>Short-Form Content</div>
-        <div class="format-chip"><span class="dot"></span>AI-Powered Production</div>
+        <div class="format-chip"><span class="dot"></span>Direct-Response Copy</div>
+        <div class="format-chip"><span class="dot"></span>Scriptwriting</div>
+        <div class="format-chip"><span class="dot"></span>Short-Form Virality</div>
+        <div class="format-chip"><span class="dot"></span>AI Creative Direction</div>
+        <div class="format-chip"><span class="dot"></span>Content Management</div>
       </div>
     </div>
   </section>
 
   <section id="value">
     <div class="wrap">
-      <div class="eyebrow">The problem</div>
+      <div class="eyebrow">The Philosophy</div>
       <div class="value-grid" data-reveal>
-        <div class="value-statement">Most content creators write words. <span class="hl">I engineer attention.</span></div>
+        <div class="value-statement">The most dangerous marketer is a <span class="hl">hybrid operator</span>.</div>
         <div class="value-col">
-          <p><strong>Your problem isn't a lack of content.</strong> It's content that doesn't convert. Generic scripts. Copy that sounds like everyone else's. Views that never become clients.</p>
-          <p><strong>I fix that</strong> in <strong>English, French, and Arabic.</strong> Every script and page is built around one question: what makes someone stop, stay past the <strong>10-second mark</strong>, and act? I use AI to move faster, never to think less.</p>
+          <div class="manifesto-quote">
+            <em>"The most dangerous marketer is the copywriter that understands sales, the salesperson that understands psychology, the creative that understands numbers, and the strategist that can execute. You see, you don't need to be the best at any of them, but a combination of all these skills rarely exists in the same person, and that's what makes you dangerous."</em>
+          </div>
+          <p><strong>One integrated brain across the entire funnel.</strong> Eliminating the disconnect between creative, copy, and performance in English, French, and Arabic.</p>
         </div>
       </div>
     </div>
@@ -698,39 +764,39 @@
 
   <section id="offers">
     <div class="wrap">
-      <div class="eyebrow">What I make</div>
+      <div class="eyebrow">The Skill Stack</div>
       <div class="section-head" data-reveal>
-        <h2>Four ways to fix a content problem.</h2>
-        <p>Pick the format your growth goal needs or run all four as one system.</p>
+        <h2>Creative that drives revenue.</h2>
+        <p>Four disciplines unified in one operator.</p>
       </div>
 
       <div class="offers-grid" data-reveal>
         <div class="offer-card">
-          <div class="offer-top"><h3>Conversion Copywriting</h3><span class="offer-tag">Pages</span></div>
-          <p class="kicker">For brands that need words to sell.</p>
-          <p class="desc">Landing pages and website copy built to rank and convert not just fill space.</p>
-          <div class="offer-you-get"><span>You get:</span> Landing pages · Long-form articles · Email copy · Website copy</div>
+          <div class="offer-top"><h3>Direct-Response Copywriting</h3><span class="offer-tag">Sales</span></div>
+          <p class="kicker">Copy that sells with consumer psychology.</p>
+          <p class="desc">Landing pages and email funnels built on consumer psychology to drive conversions.</p>
+          <div class="offer-you-get"><span>Deliverables:</span> Sales pages · Funnels · Email sequences</div>
         </div>
 
         <div class="offer-card">
-          <div class="offer-top"><h3>Script Writing & Brand Storytelling</h3><span class="offer-tag">Scripts</span></div>
-          <p class="kicker">For creators who need their message to land on camera.</p>
-          <p class="desc">Hooks that stop the scroll. Structures that hold attention to the CTA.</p>
-          <div class="offer-you-get"><span>You get:</span> YouTube scripts · Brand storytelling · Trailers · Collab scripts</div>
+          <div class="offer-top"><h3>Retention Scripting</h3><span class="offer-tag">Attention</span></div>
+          <p class="kicker">Creative that understands drop-off curves.</p>
+          <p class="desc">Video scripts structured to maximize watch time and drive clicks to the CTA.</p>
+          <div class="offer-you-get"><span>Deliverables:</span> YouTube scripts · Storytelling · VSLs</div>
         </div>
 
         <div class="offer-card">
-          <div class="offer-top"><h3>Short-Form Content & Social Growth</h3><span class="offer-tag">Shorts</span></div>
-          <p class="kicker">For streamers sitting on unused long-form footage.</p>
-          <p class="desc">Your raw footage, cut into a daily short-form pipeline backed by performance data.</p>
-          <div class="offer-you-get"><span>You get:</span> Reels · TikToks · Shorts · Content calendars · Captions</div>
+          <div class="offer-top"><h3>Short-Form Virality</h3><span class="offer-tag">Traffic</span></div>
+          <p class="kicker">Data-driven reach for organic content.</p>
+          <p class="desc">High-frequency short-form systems turning raw footage into qualified reach.</p>
+          <div class="offer-you-get"><span>Deliverables:</span> TikToks · Reels · Shorts · Content pipelines</div>
         </div>
 
         <div class="offer-card">
-          <div class="offer-top"><h3>AI-Powered Content Production</h3><span class="offer-tag">Campaigns</span></div>
-          <p class="kicker">For brands that want high-impact ads without a production team.</p>
-          <p class="desc">Full ad concepts, idea to final edit AI-fast, without cutting creative quality.</p>
-          <div class="offer-you-get"><span>You get:</span> Concept · Scripting · AI visuals · Final edit</div>
+          <div class="offer-top"><h3>AI Creative Direction</h3><span class="offer-tag">Execution</span></div>
+          <p class="kicker">Strategy with hands-on AI execution.</p>
+          <p class="desc">Rapid ad concepts and generative AI visuals delivered at startup speed.</p>
+          <div class="offer-you-get"><span>Deliverables:</span> AI visuals · Ad concepts · Full execution</div>
         </div>
       </div>
     </div>
@@ -754,14 +820,38 @@
       <div class="rail" id="rail" data-reveal>
 
         <div class="case-card">
+          <div class="case-thumb" data-placeholder="Reef Perfumes UK" style="border-bottom: 1px solid var(--border); background: radial-gradient(circle at center, rgba(214,254,62,0.16) 0%, #151517 72%); display: flex; align-items: center; justify-content: center; position: relative;">
+            <img loading="lazy" decoding="async" src="ReefPerfumes1.webp" alt="Reef Perfumes UK" style="width: 82px; height: 82px; object-fit: contain; border-radius: 50%; border: 1.5px solid var(--lime); padding: 8px; background: #ffffff; box-shadow: 0 8px 24px rgba(0,0,0,0.6); display: block;">
+            <span class="cat" style="z-index: 10;">Luxury Fragrance · Falta Studio</span>
+          </div>
+          <div class="case-body">
+            <h3>Reef Perfumes UK</h3>
+            <p class="case-result">Creative direction, luxury storytelling, and AI visual production.</p>
+            <p class="case-how"><span>Role</span>Campaign creative and viral hooks with Falta Studio.</p>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-thumb" data-placeholder="Falta Studio logo" style="border-bottom: 1px solid var(--border); background: radial-gradient(circle at center, rgba(214,254,62,0.14) 0%, #151517 72%); display: flex; align-items: center; justify-content: center; position: relative;">
+            <img loading="lazy" decoding="async" src="Eye_of_falta.webp" alt="Falta Studio" style="width: 86px; height: 86px; object-fit: contain; filter: drop-shadow(0 6px 18px rgba(0,0,0,0.7));">
+            <span class="cat" style="z-index: 10;">Agency · Remote</span>
+          </div>
+          <div class="case-body">
+            <h3>Falta Studio</h3>
+            <p class="case-result">Content management and AI pipelines across agency accounts.</p>
+            <p class="case-how"><span>Role</span>Remote Content Manager & AI Creator.</p>
+          </div>
+        </div>
+
+        <div class="case-card">
           <div class="case-thumb" data-placeholder="Premium Booking screenshot" style="border-bottom: 1px solid var(--border);">
             <img loading="lazy" decoding="async" src="premieumthumb.webp" alt="Premium Booking screenshot" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
             <span class="cat" style="z-index: 10;">Booking agency · Canada</span>
           </div>
           <div class="case-body">
             <h3>Premium Booking</h3>
-            <p class="case-result">One unified content system across web, email, and social instead of disconnected one-off content.</p>
-            <p class="case-how"><span>How</span>SEO landing pages, blogs, and email/social copy built to rank and convert.</p>
+            <p class="case-result">Unified SEO, landing page, and email funnel.</p>
+            <p class="case-how"><span>How</span>Conversion copy built to rank and convert.</p>
           </div>
         </div>
 
@@ -772,8 +862,8 @@
           </div>
           <div class="case-body">
             <h3>Pierre Winvest</h3>
-            <p class="case-result">A repeatable script structure connecting content directly to community growth and monetization.</p>
-            <p class="case-how"><span>How</span>French YouTube scripts pairing storytelling with CTAs into a paid Telegram community.</p>
+            <p class="case-result">French YouTube script engine driving community monetization.</p>
+            <p class="case-how"><span>How</span>Storytelling paired with direct-response CTAs.</p>
           </div>
         </div>
 
@@ -784,8 +874,8 @@
           </div>
           <div class="case-body">
             <h3>Malek Katrou</h3>
-            <p class="case-result">A daily short-form pipeline, growing reach across platforms from a single recording session.</p>
-            <p class="case-how"><span>How</span>High-impact livestream clips cut into Reels, TikToks, and Shorts.</p>
+            <p class="case-result">Daily multi-platform short-form pipeline from livestreams.</p>
+            <p class="case-how"><span>How</span>High-retention Reels, TikToks, and Shorts.</p>
           </div>
         </div>
 
@@ -796,8 +886,8 @@
           </div>
           <div class="case-body">
             <h3>Midos</h3>
-            <p class="case-result">Individual clips reaching <strong>six-figure view counts</strong> from a single long-form upload.</p>
-            <p class="case-how"><span>How</span>Long-form repurposed into scroll-stopping shorts with retention-driven hooks.</p>
+            <p class="case-result">Six-figure clip views repurposed from single long-form uploads.</p>
+            <p class="case-how"><span>How</span>Retention-driven hooks and pacing.</p>
           </div>
         </div>
 
@@ -808,8 +898,8 @@
           </div>
           <div class="case-body">
             <h3>Winvest Media</h3>
-            <p class="case-result">A consistent publishing engine covering fast-moving news without sacrificing credibility.</p>
-            <p class="case-how"><span>How</span>French geopolitics scripts with research, trend monitoring, and retention-built hooks.</p>
+            <p class="case-result">Fast-turnaround researched scripts built for retention.</p>
+            <p class="case-how"><span>How</span>French geopolitical scripts and trend analysis.</p>
           </div>
         </div>
 
@@ -821,8 +911,8 @@
           </div>
           <div class="case-body">
             <h3>NMTC & DX</h3>
-            <p class="case-result">Multi-format campaigns driving turnout and partner visibility across two national events.</p>
-            <p class="case-how"><span>How</span>Cinematic trailers, promo copy, and collab scripts in English and Tunisian Arabic.</p>
+            <p class="case-result">Campaign copy and trailers driving turnout for national events.</p>
+            <p class="case-how"><span>How</span>Bilingual scripts in English and Tunisian Arabic.</p>
           </div>
         </div>
 
@@ -832,31 +922,31 @@
 
   <section id="why">
     <div class="wrap">
-      <div class="eyebrow">Why me</div>
+      <div class="eyebrow">The Edge</div>
       <div class="section-head" data-reveal>
-        <h2>Four reasons clients come back.</h2>
+        <h2>Why a hybrid operator wins.</h2>
       </div>
 
       <div class="why-grid" data-reveal>
         <div class="why-card">
           <div class="num">1</div>
-          <h3>I think in outcomes, not deliverables.</h3>
-          <p>Every piece has one job: get watched, get read, get clicked, get replied to. That comes before a single word is written.</p>
+          <h3>Creative that understands numbers.</h3>
+          <p>Every hook, scene, and line is judged by watch time, CTR, and conversion rate.</p>
         </div>
         <div class="why-card">
           <div class="num">2</div>
-          <h3>I work across three languages and cultures.</h3>
-          <p>Native in English, French, and Arabic not translated. Your content never reads like it was adapted from somewhere else.</p>
+          <h3>Copy that understands sales psychology.</h3>
+          <p>Structured around buyer motivations, objection handling, and action triggers.</p>
         </div>
         <div class="why-card">
           <div class="num">3</div>
-          <h3>I've worked both sides of the camera.</h3>
-          <p>From SEO pages to livestream clipping to cinematic ads. What converts on a page and what retains on a screen one consistent strategy.</p>
+          <h3>Falta Studio & Reef Perfumes UK.</h3>
+          <p>Battle-tested remote agency experience managing creative and AI production.</p>
         </div>
         <div class="why-card">
           <div class="num">4</div>
-          <h3>I use AI as leverage, not a shortcut.</h3>
-          <p>Broadcast-quality scripts, visuals, and edits faster, without losing the strategic thinking that makes content work.</p>
+          <h3>Trilingual execution.</h3>
+          <p>Native execution across English, French, and Arabic.</p>
         </div>
       </div>
     </div>
@@ -866,8 +956,8 @@
     <div class="wrap">
       <div class="cta-panel" data-reveal>
         <div class="eyebrow" style="justify-content:center;">Let's talk</div>
-        <h2>Is Your Content Costing You Views, Leads, Or Sales? <span class="hl">Let's Fix It.</span></h2>
-        <p>Tell me what you're working on. No generic pitch, no fluff just exactly how I'd approach it.</p>
+        <h2>Ready to work with a marketer who can <span class="hl">actually execute?</span></h2>
+        <p>Direct-response copy, creative direction, and AI execution in one operator.</p>
         <div class="hero-actions">
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohamednjeh10@gmail.com" target="_blank" class="btn btn-solid">Tell Me What You're Building</a>
           <a href="https://www.linkedin.com/in/mohamed-njeh1/" target="_blank" class="btn btn-ghost">Connect on LinkedIn</a>
