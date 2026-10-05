@@ -1,0 +1,5 @@
+# Local and original backups
+*-orig.*
+*.tmp
+.DS_Store
+Thumbs.db
